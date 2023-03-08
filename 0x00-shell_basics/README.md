@@ -11,4 +11,6 @@ Display current directory contents, including hidden files (starting with .).Usi
 ## 5-listfilesdigitonly
 Display current directory contents: 1.Long format 2.with user and group IDs displayed numerically 3.And hidden files.
 ## 6-firstdirectory
-Create a script that creates a directory named my_first_directory in the /tmp/ directory
+Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+## 7-movethatfile
+Moving the file betty from /tmp/ to /tmp/my_first_directory.
