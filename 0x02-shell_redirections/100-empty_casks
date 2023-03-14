@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*" -empty -print |cut -d"/" -f2
+find . -name "*" -empty -print | rev | cut -d"/" -f1 | rev
