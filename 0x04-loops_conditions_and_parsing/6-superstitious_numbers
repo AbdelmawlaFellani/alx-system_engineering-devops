@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# This script displays Best School and when iterator equals 4
+# it displays bad luck and good luck when equals 8
+i=1
+# Check if the iterator equals a specific number
+while [ $i -lt 21 ]
+do
+        echo "$i"
+	case "$i" in 
+		4)
+                	echo "bad luck from China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck Italy"
+			;;
+	esac
+        ((i++))
+done
